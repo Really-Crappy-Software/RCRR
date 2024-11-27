@@ -22,9 +22,9 @@ cocaine = fopen(argv[2], "r");
     }
     remove(argv[2]);
   } else if (strcmp(argv[1], "-h") == 0) {
-    printf("SYNTAX: rcrr (-rne, -rm, -h) FILE FILE2(only if you're renaming) \n -rne: Renames a file \n -rm: Removes a file \n -h: Displays this menu \n If you have any problems report them on Github.");
+    printf("SYNTAX: rcrr (-rne, -rm, -h) FILE FILE2(only if you're renaming) \n -rne: Renames a file \n -rm: Removes a file \n -h: Displays this menu \n If you have any problems report them on Github.\n");
   } else {
-      printf("SYNTAX: rcrr (-rne, -rm, -h) FILE FILE2(only if you're renaming) \n -rne: Renames a file \n -rm: Removes a file \n -h: Displays this menu \n If you have any problems report them on Github.")
+      printf("SYNTAX: rcrr (-rne, -rm, -h) FILE FILE2(only if you're renaming) \n -rne: Renames a file \n -rm: Removes a file \n -h: Displays this menu \n If you have any problems report them on Github.\n");
   }
 }
 
